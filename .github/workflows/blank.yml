@@ -8,7 +8,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - uses: taku-o/checkout@v1
+    - uses: actions/checkout@v1
     - name: Run custom action
       uses: taku-o/github-docker-actions-demo@master
       with:
